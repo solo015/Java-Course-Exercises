@@ -6,21 +6,24 @@
 // 1. Bank
 
 public class Abstraction extends Abstractblank{
+    @Override
     public String username(){
         return "hen";
     }
-    
+     @Override
     public String password(){
         return "12345677889";
     }
-   
+    @Override
     public String number(){
        
         return "3303333333";
     }
+     @Override
     public int amount(){
         return 10000;
     }
+     @Override
     public String email(){
         return "email@gmail.com";
     }
